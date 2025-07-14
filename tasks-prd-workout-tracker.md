@@ -39,26 +39,26 @@
 
 * [ ] 1.0 **Project Setup and Core Infrastructure**
 
-    * [ ] 1.1 Create new .NET MAUI project with Android target only
-    * [ ] 1.2 Add Realm.NET and xUnit NuGet packages
-    * [ ] 1.3 Set up dependency injection in MauiProgram.cs
+    * [x] 1.1 Create new .NET MAUI project with Android target only
+    * [x] 1.2 Add Realm.NET and xUnit NuGet packages
+    * [x] 1.3 Set up dependency injection in MauiProgram.cs
     * [ ] 1.4 Configure app resources and styling in App.xaml
-        * [ ] 1.4.a Define global styles and resources for the app, such as colors, fonts, and button styles.
-        * [ ] 1.4.b Add support for light and dark themes to enhance user experience.
-        * [ ] 1.4.c Ensure accessibility by using high-contrast colors and larger font sizes.
-        * [ ] 1.4.d Define reusable styles for headers, footers, and cards to maintain consistency.
-        * [ ] 1.4.e Plan for simple animations, such as button press effects or tab transitions, to enhance interactivity.
-        * [ ] 1.4.f Specify icons for each tab (Workout, History, Settings) to improve navigation.
-        * [ ] 1.4.g Plan for a tabbed layout with three main tabs: Workout, History, and Settings. These tabs will define the app's navigation structure.
-    * [ ] 1.5 Set up Shell navigation in AppShell.xaml
-        * [ ] 1.5.a Create the tabbed layout in `AppShell.xaml` using the styles, themes, and icons defined in **1.4**.
-        * [ ] 1.5.b Add the three main tabs: Workout, History, and Settings.
-        * [ ] 1.5.c Link each tab to its corresponding page (`WorkoutPage.xaml`, `HistoryPage.xaml`, `SettingsPage.xaml`).
+        * [x] 1.4.a Define global styles and resources for the app, such as colors, fonts, and button styles.
+        * [x] 1.4.b Add support for light and dark themes to enhance user experience.
+        * [x] 1.4.c Ensure accessibility by using high-contrast colors and larger font sizes.
+        * [x] 1.4.d Define reusable styles for headers, footers, and cards to maintain consistency.
+        * [x] 1.4.e Plan for simple animations, such as button press effects or tab transitions, to enhance interactivity.
+        * [x] 1.4.f Specify icons for each tab (Workout, History, Settings) to improve navigation.
+        * [x] 1.4.g Plan for a tabbed layout with three main tabs: Workout, History, and Settings. These tabs will define the app's navigation structure.
+    * [x] 1.5 Set up Shell navigation in AppShell.xaml
+        * [x] 1.5.a Create the tabbed layout in `AppShell.xaml` using the styles, themes, and icons defined in **1.4**.
+        * [x] 1.5.b Add the three main tabs: Workout, History, and Settings.
+        * [x] 1.5.c Link each tab to its corresponding page (`WorkoutPage.xaml`, `HistoryPage.xaml`, `SettingsPage.xaml`).
         * [ ] 1.5.d (Optional) Add routes for deeper navigation if needed (e.g., WorkoutDetails).
-        * [ ] 1.5.e Define functionality for the Settings tab
-            * [ ] 1.5.e.a Add a theme toggle to switch between light and dark modes.
-            * [ ] 1.5.e.b Add a location tracking toggle to enable or disable GPS tracking.
-            * [ ] 1.5.e.c Add a clear history option to delete all workout session data.
+        * [x] 1.5.e Define functionality for the Settings tab
+            * [x] 1.5.e.a Add a theme toggle to switch between light and dark modes.
+            * [x] 1.5.e.b Add a location tracking toggle to enable or disable GPS tracking.
+            * [x] 1.5.e.c Add a clear history option to delete all workout session data.
 
 * [ ] 2.0 **Workout Timer and Session Management**
 
@@ -91,9 +91,9 @@
     * [ ] 3.5 Write xUnit tests for data storage logic
         * [ ] 3.5.a Test `RealmDataStorageService` methods for correctness.
         * [ ] 3.5.b Mock `IDataStorageService` for unit testing.
-    * [ ] 3.6 Integrate OpenStreetMap for Workout Locations
-        * [ ] 3.6.a Add an OpenStreetMap view to `WorkoutPage.xaml`.
-        * [ ] 3.6.b Use the user's location at the start of the workout to place the marker.
+    * [ ] 3.6 Integrate .NET MAUI Maps for Workout Locations
+        * [ ] 3.6.a Add a .NET MAUI Map view to `WorkoutPage.xaml`.
+        * [ ] 3.6.b Use the user's location at the start of the workout to place a pin on the map.
         * [ ] 3.6.c Save the workout location data in a simple JSON file.
         * [ ] 3.6.d Ensure the map integration aligns with the app's styling and accessibility features.
             
